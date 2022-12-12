@@ -102,8 +102,6 @@ li{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 iframe { 
@@ -120,6 +118,9 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     
 }
 
