@@ -119,7 +119,9 @@ iframe {
     align-items: center;
     justify-content: center;
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     
 }
