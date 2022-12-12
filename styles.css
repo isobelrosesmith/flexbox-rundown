@@ -27,8 +27,8 @@ ul{
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 /* section one flex grow and shrink */
