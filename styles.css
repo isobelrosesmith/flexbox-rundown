@@ -25,6 +25,15 @@ ul{
     padding: 5px;   
 }
 
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
