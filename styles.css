@@ -1,0 +1,93 @@
+
+
+
+body{
+    background-color: limegreen;
+}
+
+/* header sytles */
+
+header {
+    background-color: hotpink;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+
+
+/* section one flex grow and shrink */
+
+.section-one {
+    background-color: blueviolet;
+    
+    
+}
+
+.flexgrow-container {
+    display: flex;
+}
+
+.box1 {
+    background-color: skyblue;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+.box2 {
+
+    background-color: lightgreen;
+    
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box3 {
+
+    background-color: darkmagenta;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+/* section 2 center item */
+
+.section-two {
+    background-color: orangered;
+    height: 700px;
+
+}
+
+/* section 3 youtube video */
+
+.section-three {
+    background-color: lightcoral;
+    height: 800px;
+
+}
+
+iframe { 
+    padding: 5px;
+    
+}
+
+
+/* section 4 embed audio */
+
+.section-four {
+    background-color: darkslateblue;
+    height: 500px;
+    
+}
+
+/* section 5 media items */
+
+.section-five {
+    background-color: goldenrod;
+    height: 1400px;
+
+}
+
+
