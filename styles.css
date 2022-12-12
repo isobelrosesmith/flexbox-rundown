@@ -14,6 +14,12 @@ header {
     
 }
 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
 
 /* section one flex grow and shrink */
 
