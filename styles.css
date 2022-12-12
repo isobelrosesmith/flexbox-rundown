@@ -20,6 +20,14 @@ h1{
     text-align: center;
 }
 
+ul{
+    list-style-type: none;
+    padding: 5px;   
+}
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* section one flex grow and shrink */
 
