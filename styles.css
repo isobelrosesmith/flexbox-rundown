@@ -57,6 +57,26 @@ li{
     display: flex;
 }
 
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+
+}
+
+.media-container .mediacontent{
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+
+}
+
 .box1 {
     background-color: skyblue;
     
