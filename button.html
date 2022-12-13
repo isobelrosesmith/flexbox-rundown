@@ -1,189 +1,115 @@
-
-
-
-body{
-    background-color: limegreen;
-}
-
-/* header sytles */
-
-header {
-    background-color: hotpink;
-    padding: 10px 0px 10px 0px;
+<!DOCTYPE html>
+<html lang="en">
     
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Let's Flexbox!</title>
+
+
+</head>
+<body>
+
+    <!--Header title and menu begin here-->
+    <header>
+        <h1>Flexbox Rundown</h1>
+
+
+        <ul>
+            <div class="container-navigation">
+                <button>1.FlexGrow</button>
+                <button>2.CenterItem</button>
+                <button>3.Video</button>
+                <button class="push">4.Audio</button>
+                <button>5.Media</button>
+                <a href="button.html" target="blank"><button>Would you like to know more?</button></a>
+
+            </div>
+
+        </ul>
+                     
+    </header>
     
-}
+    <!-- end of header information here -->
+ 
+ 
+        <main>
+            <div class="section-one">
+                <div class="flexgrow-container">
+                    <div class="box1">ONE</div>
+                    <div class="box2">TWO</div>
+                    <div class="box3">THREE</div>
 
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
+                </div>
 
-ul{
-    list-style-type: none;
-    padding: 5px;   
-}
+            </div>
 
-li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid limegreen;
-    border-radius: 10px;
-    background-color: aliceblue;
-}
+            <div class="section-two">
+                
 
-.container-navigation {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-}
+                    <img src="http://placekitten.com/600/400">
 
-.push{
-    margin-left: auto;
-}
+                
+            </div>
 
-/* section one flex grow and shrink */
+            <!-- video goes below -->
 
-.section-one {
-    background-color: blueviolet;
-    
-    
-}
+            <div class="section-three">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vodnI38cNI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-.flexgrow-container {
-    display: flex;
-}
-
-.media-container {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 15px 25px 15px 15px;
-
-}
-
-.media-container .mediacontent{
-    flex: 1;
-    padding: 10px;
-}
-
-.mediacontent{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: navy;
-    font-size: 20px;
-
-}
-
-.box1 {
-    background-color: skyblue;
-    
-    height: 200px;
-    flex: 1 1 auto;
-
-}
-
-.box2 {
-
-    background-color: lightgreen;
-    
-    height: 200px;
-    flex: 1 1 auto;
-}
-
-.box3 {
-
-    background-color: darkmagenta;
-    
-    height: 200px;
-    flex: 1 1 auto;
-
-}
-
-/* section 2 center item */
-
-.section-two {
-    background-color: orangered;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-/* section 3 youtube video */
-
-.section-three {
-    background-color: lightcoral;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-iframe { 
-    padding: 5px;
-    
-}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SGJFWirQ3ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-/* section 4 embed audio */
 
-.section-four {
-    background-color: darkslateblue;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    font-style: italic;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    
-}
+            </div>
 
-/* section 5 media items */
+            <div class="section-four">
 
-.section-five {
-    background-color: goldenrod;
+                <figure>
+                    <figcaption>Cor Blimey!</figcaption>
+                    <audio
+                        controls src="audio/corblimeygovernorfnl.m4a">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </figure>
 
-}
+ 
 
-/* button style */
+            </div>
 
-button{
-    border: 1px solid blueviolet;
-    border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    padding: 10px;
-    margin: 2px;
-    transition-duration: .4s;
-}
+            <div class ="section-five">
+                
+                <div class="media-container">
+                    
+                        <img src="https://placedog.net/400/600">
+                    
+                    <div class="mediacontent">Here is a placeholder dog. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the    dog changes and a new fun dog shows up. I like this feature as dogs are our best friends. And also like to fart a lot. </div>
 
-button:hover{
-    background-color: limegreen;
-    color: white;
-}
+                </div>
+                
 
-button:active{
-    background-color: #3e8e41;
-    box-shadow: 0 5px darkred;
-    transform: translateY(4px);
-}
+                <div class="media-container">
+                    <div class="image">
+                        <img src="https://placebear.com/400/600">
+                    </div>
+                    <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream. </div>
+                </div>
+                
+                
 
-/* footer goes here */
+            </div>
+        
 
-footer{
-    background-color: rebeccapurple;
-    height: 30px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: x-small;
-    color: white;
-    padding: 10px 0px;
-}
+        </main> 
+
+        <footer>
+            <p>This website is brought to you by the letter F, B, and the number 42. It was made by Isobel Smith</p>
+        </footer>
+</body>
+</html>
