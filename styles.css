@@ -154,4 +154,19 @@ iframe {
 
 }
 
+/* button style */
 
+button{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover{
+    background-color: limegreen;
+    color: white;
+}
